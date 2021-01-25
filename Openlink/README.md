@@ -1,5 +1,7 @@
 # 如何将openrtk作为基站使用
 
+Openlink下载地址：<https://github.com/Aceinna/openrtk_core/releases>
+
 选择一个目录用来存放日志。
 
 ![avatar](./img/1.png)
