@@ -1,3 +1,4 @@
+[中文](README.md)
 # How to use openrtk as a base station
 
 Openlink download：<https://github.com/Aceinna/openrtk_core/releases>
