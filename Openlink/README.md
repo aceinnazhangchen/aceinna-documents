@@ -118,4 +118,28 @@ Openlink下载地址：<https://github.com/Aceinna/openrtk_core/releases>
 
 ![avatar](./img/4/6.png)
 
-## 5.使用Openlink读取文件
+## 5.使用Openlink读取文件模拟实时数据
+
+5.1. 勾选【Input-1】，【Stream】选择【File】，【freq】根据文件选择，【format】根据文件格式选择，【station】选择【Rover】，【file】选择rover站文件，【Link】勾选【Output-1】。
+
+![avatar](./img/5/1.png)
+
+5.2. 勾选【Input-2】，【Stream】选择【File】，【freq】根据文件选择，【format】根据文件格式选择，【station】选择【Base】，【file】选择Base站文件，【Link】勾选【Output-2】。
+
+![avatar](./img/5/2.png)
+
+5.3. 勾选【Output-1】，【Stream】选择【Ntrip Caster】，【Mountpoint】设置为一个自定义名称【RoverTest01】。
+
+![avatar](./img/5/3.png)
+
+5.4. 勾选【Output-2】，【Stream】选择【Ntrip Caster】，【Mountpoint】设置为一个自定义名称【BaseTest01】。
+
+![avatar](./img/5/4.png)
+
+5.5. 点击【start】两个文件根据频率读取并且同步时间上传到两个【Caster】上。
+
+![avatar](./img/5/5.png)
+
+5.6. 在网站页面上查看两个【Caster】，然后可以使用其他工具获取这两个【Caster】的数据并且进行计算。
+
+![avatar](./img/5/6.png)
