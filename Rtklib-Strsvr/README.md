@@ -69,4 +69,6 @@ SAVECONFIG
 
 ![avatar](./img/10.png)
 
+1.11. 如果忘记在【Input Stream Monitor】中选择【Ins2000】导致没有实时解码，可以使用文件解码工具解码。 
 
+文件工具下载：<https://github.com/aceinnazhangchen/Ins2000_deocder/releases>

@@ -69,4 +69,8 @@ SAVECONFIG
 
 ![avatar](./img/10.png)
 
+1.11.If you forget to select [ins2000] in [input stream monitor] and there is no real-time decoding, you can use the file decoding tool to decode.
+
+file decoder download：<https://github.com/aceinnazhangchen/Ins2000_deocder/releases>
+
 
