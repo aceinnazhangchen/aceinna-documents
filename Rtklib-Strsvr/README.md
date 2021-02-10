@@ -2,7 +2,7 @@
 
 ## 1. 使用Strsvr保存Ins2000数据同时解码
 
-1.1. 【Input】的【Type】选择【Serial】，然后点击后面的【Opt】按钮。
+1.1. 【Input】的【Type】选择【Serial】，然后点击其右侧的【Opt】按钮。
 
 ![avatar](./img/1.png)
 
@@ -44,7 +44,7 @@ SAVECONFIG
 ```
 ![avatar](./img/4.png)
 
-1.5. 【(1)Output】选择【File】，然后点击前后面的【Opt】按键。
+1.5. 【(1)Output】选择【File】，然后点击其右侧的【Opt】按键。
 
 ![avatar](./img/5.png)
 
