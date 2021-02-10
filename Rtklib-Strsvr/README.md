@@ -1,6 +1,7 @@
+[English](README-En.md)
 # Strsvr 采集Ins2000数据说明
-
-## 1. 使用Strsvr保存Ins2000数据同时解码
+strsvr.exe 下载地址：<https://github.com/Aceinna/rtklib_aceinna/releases>
+## 1. 使用strsvr保存Ins2000数据同时解码
 
 1.1. 【Input】的【Type】选择【Serial】，然后点击其右侧的【Opt】按钮。
 
@@ -63,3 +64,9 @@ SAVECONFIG
 1.9. 点击【Start】开始采集数据。
 
 ![avatar](./img/9.png)
+
+1.10. 采集数据的数据同时实时解码产生的文件。
+
+![avatar](./img/10.png)
+
+
