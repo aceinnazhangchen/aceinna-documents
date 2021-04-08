@@ -1,4 +1,4 @@
-# 如何向Regression系统中添加测试数据。
+# 向Regression系统中添加测试数据。
 
 1. 远程登录
 
@@ -24,7 +24,20 @@
 
     ![avatar](./img/4.png)
 
-# 如何运行Regression系统。
+# 如何手动更新rtk或者ins的可执行文件。
+
+1. 将rtk或者ins的文件拷贝到，可执行文件目录中。可执行文件目录：
+    ```
+    c:\\workspace\regression\bin\
+    ```
+
+    ![avatar](./img/11.png)
+
+2. 修改目录下的git-version.json文件，填写相应的版本号。
+
+    ![avatar](./img/12.png)
+
+# 运行Regression系统。
 
 1. 浏览器打开 http://192.168.20.40:8080/ 登录或者创建一个账号。
 
