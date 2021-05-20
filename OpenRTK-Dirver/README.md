@@ -34,7 +34,7 @@
 
 ## 解码数据
 
-1. OpenRTK_Dirver点击【Tools】菜单，选择【Decoder】打开【Decode Tools】。
+1. 点击【Tools】菜单，选择【Decoder】打开【Decode Tools】。
 ![avatar](./img/08.png)
 
 2. 选择【openrtk】，并且选择第一个串口采集的文件，点击【decode】。
@@ -45,7 +45,7 @@
 
 ## 合并数据
 
-1. OpenRTK_Dirver点击【Tools】菜单，选择【Merger】打开【Merge Tool】。
+1. 点击【Tools】菜单，选择【Merger】打开【Merge Tool】。
 ![avatar](./img/11.png)
 
 2. rtcm文件选择第三个串口采集的文件，imu文件选择之前解码出的imu原始数据。
@@ -58,7 +58,7 @@
 
 1. 断电重启OpenRTK330LI,每次重播数据前都需要重启一下设备。
 
-2. OpenRTK_Dirver选择OpenRTK330LI对应的三个串口。
+2. 选择OpenRTK330LI对应的三个串口。
 ![avatar](./img/01.png)
 
 3. 勾选【replay file】，并且选择合并后的原始数据文件。
