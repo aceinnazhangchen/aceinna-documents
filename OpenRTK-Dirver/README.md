@@ -6,7 +6,11 @@
 
 1. 用usb数据线将OpenRTK330LI和电脑连接。
 
-2. 首先将固件烧录到OpenRTK330LI中。
+2. 首先将openrtk_replay.bin固件烧录到OpenRTK330LI中。
+
+3. 该固件与正常版本固件的计算和采集功能相同可以作为正常本版固件使用，与正常固件相比增加了以下功能： 
+  - 采集的rtcm数据已经将rover站数据和base站数据按照时序合并。
+  - 增加了回放模式，与OpenRTK Dirver配合使用可以从串口输入历史数据重新计算。
 
 ## 采集数据
 (也可以使用python-openimu采集数据)

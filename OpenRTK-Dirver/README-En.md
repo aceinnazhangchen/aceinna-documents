@@ -8,6 +8,10 @@
 
 2. Burn the firmware to OpenRTK330LI.
 
+3. This firmware has the same calculation and acquisition functions as the normal version firmware, and can be used as the normal version firmware. Compared with the normal firmware, the following functions are added:
+  - The collected rtcm data has merged the data of the rover station and the base station according to the time sequence.
+Added playback mode, used in conjunction with OpenRTK Dirver, can input historical data from the serial port to recalculate.
+
 ## Data collection
 
 (You can also use python-openimu to collect data.)
